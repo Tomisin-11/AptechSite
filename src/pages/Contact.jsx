@@ -12,7 +12,7 @@ export default function Contact() {
   e.preventDefault()
   setStatus('sending')
   try {
-    const res = await fetch('https://formspree.io/f/mgoboryb', {
+    const res = await fetch('https://formspree.io/f/mrevejyr', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -132,4 +132,6 @@ export default function Contact() {
       </div>
     </div>
   )
+}
+
 }
