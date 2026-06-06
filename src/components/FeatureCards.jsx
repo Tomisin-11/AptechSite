@@ -1,6 +1,5 @@
 const cards = [
   {
-    
     iconBg: 'bg-pink-100',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-10 w-10 text-rose-500">
@@ -8,7 +7,7 @@ const cards = [
       </svg>
     ),
     title: "Aptech's Certificates Enjoy Global Recognition",
-    text: "Aptech's courses lead to professional I.T. certifications from leading I.T brands such as Microsoft and from Aptech itself. Each course includes classroom learning as well as practical sessions in the lab. Students are given optimum time in the lab and can work on their projects/assignments whenever they wish.",
+    text: "Aptech's courses lead to professional I.T. certifications from leading I.T brands such as Microsoft and from Aptech itself. Each course includes classroom learning as well as practical sessions in the lab.",
   },
   {
     iconBg: 'bg-purple-100',
@@ -18,7 +17,7 @@ const cards = [
       </svg>
     ),
     title: 'Our International Education Alliances',
-    text: 'Aptech has alliance with the best international Universities and institutes across the globe to benefit Aptech students. It helps students pursue an international ICT degree staying in Nigeria or at our partner universities in UK, Australia, Dubai, Malta, Ireland or Malaysia. Get set and register with Aptech, Enquire now!',
+    text: 'Aptech has alliance with the best international Universities and institutes across the globe. Students can pursue an international ICT degree in Nigeria or at partner universities in UK, Australia, Dubai, Malta, Ireland or Malaysia.',
   },
   {
     iconBg: 'bg-green-100',
@@ -28,7 +27,7 @@ const cards = [
       </svg>
     ),
     title: "Aptech's Mission",
-    text: 'I.T. is an empowering tool, which when appropriately utilized, leads to an increase in productivity improvements and prosperity at the individual, organizational, societal, national and global levels. Education is also an enabler, which leads to continued improvement in productivity and prosperity.',
+    text: "I.T. is an empowering tool, which when appropriately utilized, leads to an increase in productivity improvements and prosperity at the individual, organizational, societal, national and global levels.",
   },
 ]
 
@@ -38,37 +37,18 @@ export default function FeatureCards() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {cards.map((card, i) => (
-  <div
-    key={i}
-    data-aos={i === 0 ? 'fade-right' : i === 2 ? 'fade-left' : undefined}
-    className="bg-white border border-gray-100 rounded-xl shadow-sm p-8 flex flex-col items-center text-center"
-  >
-              {/* Icon circle */}
-              <div className={`w-20 h-20 rounded-full ${card.iconBg} flex items-center justify-center mb-6`}>
-                {card.icon}
-              </div>
-
-              {/* Title */}
-              <h3 className="text-gray-900 font-bold text-lg mb-4 leading-snug">
-                {card.title}
-              </h3>
-
-              {/* Text */}
-              <p className="text-gray-500 text-sm leading-relaxed">
-                {card.text}
-              </p>
+            <div key={i}
+              data-aos={i === 0 ? 'fade-right' : i === 2 ? 'fade-left' : undefined}
+              className="bg-white border border-gray-100 rounded-xl shadow-sm p-8 flex flex-col items-center text-center">
+              <div className={`w-20 h-20 rounded-full ${card.iconBg} flex items-center justify-center mb-6`}>{card.icon}</div>
+              <h3 className="text-gray-900 font-bold text-lg mb-4 leading-snug">{card.title}</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">{card.text}</p>
             </div>
           ))}
         </div>
-
-        {/* Get started button */}
         <div className="flex justify-center mt-12">
-          
-           <a href="/courses"
-            className="bg-primary text-white font-semibold px-8 py-3 rounded flex items-center gap-2 hover:opacity-90 transition-opacity"
-          >
-            Get started
-            <span className="text-lg">›</span>
+          <a href="/courses" className="bg-primary text-white font-semibold px-8 py-3 rounded flex items-center gap-2 hover:opacity-90 transition-opacity">
+            Get started <span className="text-lg">›</span>
           </a>
         </div>
       </div>

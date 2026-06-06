@@ -3,3 +3,17 @@
 @theme {
   --color-primary: #AD1E22;
 }
+
+/* On mobile, AOS fade-left/right can hide elements off-screen.
+   Force all AOS elements to be visible on small screens. */
+@media (max-width: 767px) {
+  [data-aos='fade-left'],
+  [data-aos='fade-right'] {
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  [data-aos].aos-animate,
+  [data-aos] {
+    transform: translateY(0) !important;
+  }
+}

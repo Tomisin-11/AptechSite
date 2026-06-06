@@ -180,7 +180,7 @@ export default function CoursesADSE() {
           </div>
 
           {/* Right - Text centered */}
-          <div data-aos="fade-up" className="flex flex-col   ">
+          <div data-aos="fade-up" className="flex flex-col items-center text-center">
             <h2 className="text-gray-900 font-bold text-2xl mb-6">
               Advance Diploma In Software Engineering
             </h2>
