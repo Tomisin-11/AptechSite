@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import logo from '../assets/Navbar/image.png'
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
       <footer className="bg-[#0d1117] text-gray-400 py-16 px-6">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
-            <img src="/src/assets/Navbar/image.png" alt="Aptech" className="h-16 w-auto mb-4" />
+            <img src={logo} alt="Aptech" className="h-16 w-auto mb-4" />
             <p className="text-sm leading-relaxed text-gray-400">IT is required in every industry. Today, the world is moving towards automation of skills, an area in which IT is urgently required. Enroll and get your skills now !!!</p>
           </div>
           <div>

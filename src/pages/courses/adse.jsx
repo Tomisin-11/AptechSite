@@ -1,3 +1,5 @@
+import coursesHero from '../../assets/Courses/courses-hero.jpg'
+import adseImg from '../../assets/Courses/adse.jpg'
 const semesters = [
   {
     title: 'SEMESTER ONE',
@@ -152,7 +154,7 @@ export default function CoursesADSE() {
       <div
         className="relative w-full h-[60vh] flex items-center justify-center"
         style={{
-          backgroundImage: "url('/src/assets/Courses/courses-hero.jpg')",
+          backgroundImage: `url(${coursesHero})`,
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -173,7 +175,7 @@ export default function CoursesADSE() {
           {/* Left - Image */}
           <div data-aos="fade-right" className="rounded-2xl overflow-hidden shadow-md">
             <img
-              src="/src/assets/Courses/adse.jpg"
+              src={adseImg}
               alt="ADSE Course"
               className="w-full h-110 object-cover"
             />

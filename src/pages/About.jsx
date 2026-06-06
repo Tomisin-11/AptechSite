@@ -1,8 +1,11 @@
+import aboutHero from '../assets/About/about-hero.jpg'
+import collaborationsImg from '../assets/About/collaborations.png'
+import aboutVideo from '../assets/About/about-video.mp4'
 export default function About() {
   return (
     <div>
       <div className="relative w-full h-[60vh] flex items-center justify-center"
-        style={{ backgroundImage:"url('/src/assets/About/about-hero.jpg')", backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
+        style={{ backgroundImage: `url(${aboutHero})`, backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 text-center">
           <h1 className="text-white font-bold text-5xl md:text-6xl">About <span className="text-yellow-400">Us</span></h1>
@@ -14,7 +17,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right" className="rounded-2xl overflow-hidden shadow-md">
-              <video src="/src/assets/About/about-video.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover" />
+              <video src={aboutVideo} autoPlay loop muted playsInline className="w-full h-120 object-cover" />
             </div>
             <div data-aos="fade-up">
               <h2 className="text-gray-900 font-bold text-4xl mb-6">About Us</h2>
@@ -26,7 +29,7 @@ export default function About() {
 
           <div className="mt-24 text-center">
             <h2 data-aos="fade-up" className="text-gray-900 font-bold text-3xl mb-16">In Collaboration with</h2>
-            <img data-aos="fade-up" data-aos-delay="100" src="/src/assets/About/collaborations.png" alt="Our Collaborations" className="mx-auto w-full max-w-3xl object-contain" />
+            <img data-aos="fade-up" data-aos-delay="100" src={collaborationsImg} alt="Our Collaborations" className="mx-auto w-full max-w-3xl object-contain" />
           </div>
         </div>
       </div>

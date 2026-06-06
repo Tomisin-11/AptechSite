@@ -1,3 +1,4 @@
+import collaborationsImg from '../assets/About/collaborations.png'
 import { useState, useEffect, useRef } from 'react'
 
 const testimonials = [
@@ -81,7 +82,7 @@ export default function Testimonials() {
 
         <div className="mt-24 text-center">
           <h2 data-aos="fade-up" className="text-gray-900 font-bold text-3xl mb-16">In Collaboration with</h2>
-          <img data-aos="fade-up" data-aos-delay="100" src="/src/assets/About/collaborations.png" alt="Our Collaborations" className="mx-auto w-full max-w-3xl object-contain" />
+          <img data-aos="fade-up" data-aos-delay="100" src={collaborationsImg} alt="Our Collaborations" className="mx-auto w-full max-w-3xl object-contain" />
         </div>
       </div>
     </section>

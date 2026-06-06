@@ -1,3 +1,4 @@
+import coursesHero from '../../assets/Courses/courses-hero.jpg'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -208,7 +209,7 @@ export default function CoursesSmart() {
       <div
         className="relative w-full h-[60vh] flex items-center justify-center"
         style={{
-          backgroundImage: "url('/src/assets/Courses/courses-hero.jpg')",
+          backgroundImage: `url(${coursesHero})`,
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center',

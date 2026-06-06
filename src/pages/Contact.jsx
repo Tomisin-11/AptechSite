@@ -1,3 +1,4 @@
+import coursesHero from '../assets/Courses/courses-hero.jpg'
 import { useState } from 'react'
 
 
@@ -37,7 +38,7 @@ export default function Contact() {
   return (
     <div>
       <div className="relative w-full h-[60vh] flex items-center justify-center"
-        style={{ backgroundImage:"url('/src/assets/Courses/courses-hero.jpg')", backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
+        style={{ backgroundImage: `url(${coursesHero})`, backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
         <div className="absolute inset-0 bg-black/75" />
         <div data-aos="fade-up" className="relative z-10 text-center">
           <h1 className="text-white font-bold text-5xl md:text-4xl">Contact <span className="text-yellow-400">Us</span></h1>

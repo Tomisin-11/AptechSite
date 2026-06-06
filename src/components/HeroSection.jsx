@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react'
+import image1 from '../assets/Home/HeroSection/image1.png'
+import image2 from '../assets/Home/HeroSection/image2.png'
+import image3 from '../assets/Home/HeroSection/image3.png'
 
 const slides = [
-  { image: '/src/assets/Home/HeroSection/image1.png', heading: 'Are You Job Ready With', highlight: 'Digital Skill', end: 'For Industry?', sub: 'Skill up now and stay relevant in digital age.' },
-  { image: '/src/assets/Home/HeroSection/image2.png', heading: 'KickStart Your Career With An', highlight: 'ICT Degree!', end: '', sub: 'Why go to a Nigerian University when you can KickStart your Career with an ICT Degree from a University Overseas.' },
-  { image: '/src/assets/Home/HeroSection/image3.png', heading: 'Enjoy Global', highlight: 'Recognition', end: '', sub: 'Get easy & affordable access to an International I.T. Degree!' },
+  { image: image1, heading: 'Are You Job Ready With', highlight: 'Digital Skill', end: 'For Industry?', sub: 'Skill up now and stay relevant in digital age.' },
+  { image: image2, heading: 'KickStart Your Career With An', highlight: 'ICT Degree!', end: '', sub: 'Why go to a Nigerian University when you can KickStart your Career with an ICT Degree from a University Overseas.' },
+  { image: image3, heading: 'Enjoy Global', highlight: 'Recognition', end: '', sub: 'Get easy & affordable access to an International I.T. Degree!' },
 ]
 
 export default function HeroSection() {
@@ -23,7 +26,7 @@ export default function HeroSection() {
           style={{ backgroundImage: `url(${s.image})` }} />
       ))}
       <div className="absolute inset-0 bg-black/60" />
-      <div className="relative z-10  flex flex-col items-center justify-start h-full px-6 pt-16 text-center">
+      <div className="relative z-10 flex flex-col items-center justify-start h-full px-6 pt-16 text-center">
         <h1 className="text-white mt-15 font-bold text-4xl md:text-5xl leading-tight max-w-5xl">
           {slide.heading} <span className="text-yellow-400">{slide.highlight}</span> {slide.end}
         </h1>

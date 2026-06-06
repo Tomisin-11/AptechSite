@@ -1,3 +1,5 @@
+import coursesHero from '../../assets/Courses/courses-hero.jpg'
+import acnsImg from '../../assets/Courses/acns.jpg'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -28,7 +30,7 @@ export default function CoursesACNS() {
   return (
     <div>
       <div className="relative w-full h-[60vh] flex items-center justify-center"
-        style={{ backgroundImage:"url('/src/assets/Courses/courses-hero.jpg')", backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
+        style={{ backgroundImage: `url(${coursesHero})`, backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
         <div className="absolute inset-0 bg-black/75" />
         <div data-aos="fade-up" className="relative z-10 text-center">
           <h1 className="text-white font-bold text-5xl">ACNS <span className="text-yellow-400">Career Courses</span></h1>
@@ -38,7 +40,7 @@ export default function CoursesACNS() {
       <div className="py-16 px-6 bg-white">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div data-aos="fade-right" className="rounded-2xl overflow-hidden shadow-md">
-            <img src="/src/assets/Courses/acns.jpg" alt="ACNS Course" className="w-full h-full object-cover" />
+            <img src={acnsImg} alt="ACNS Course" className="w-full h-full object-cover" />
           </div>
           <div data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">

@@ -1,8 +1,11 @@
+import course1 from '../assets/Courses/course1.jpg'
+import course2 from '../assets/Courses/course2.jpg'
+import course3 from '../assets/Courses/course3.jpg'
 import { Link } from 'react-router-dom'
 
 const programs = [
   {
-    image: '/src/assets/Courses/course2.jpg',
+    image: course2,
     badge: 'ON CAMPUS',
     badgeColor: 'bg-primary text-white',
     title: 'Advanced Diploma in Software Engineering',
@@ -13,7 +16,7 @@ const programs = [
     path: '/courses/adse',
   },
   {
-    image: '/src/assets/Courses/course1.jpg',
+    image: course1,
     badge: 'ON CAMPUS & ONLINE',
     badgeColor: 'bg-yellow-400 text-black',
     title: 'Aptech Certified Network Specialist',
@@ -24,7 +27,7 @@ const programs = [
     path: '/courses/acns',
   },
   {
-    image: '/src/assets/Courses/course3.jpg',
+    image: course3,
     badge: 'ON CAMPUS & ONLINE',
     badgeColor: 'bg-yellow-400 text-black',
     title: 'Smart Professional Courses',

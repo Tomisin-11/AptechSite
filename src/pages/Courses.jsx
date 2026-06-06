@@ -1,20 +1,24 @@
 import { Link } from 'react-router-dom'
+import coursesHero from '../assets/Courses/courses-hero.jpg'
+import course1 from '../assets/Courses/course1.jpg'
+import course2 from '../assets/Courses/course2.jpg'
+import course3 from '../assets/Courses/course3.jpg'
 
 const courses = [
-  { image: '/src/assets/Courses/course1.jpg', title: 'Aptech ACNS Career Courses', path: '/courses/acns' },
-  { image: '/src/assets/Courses/course2.jpg', title: 'Advanced Diploma In Software Engineering (ADSE)', path: '/courses/adse' },
-  { image: '/src/assets/Courses/course3.jpg', title: 'Aptech Smart Professional Courses', path: '/courses/smart-pro' },
+  { image: course1, title: 'Aptech ACNS Career Courses', path: '/courses/acns' },
+  { image: course2, title: 'Advanced Diploma In Software Engineering (ADSE)', path: '/courses/adse' },
+  { image: course3, title: 'Aptech Smart Professional Courses', path: '/courses/smart-pro' },
 ]
 
 export default function Courses() {
   return (
     <div>
       <div className="relative w-full h-[60vh] flex items-center justify-center"
-        style={{ backgroundImage:"url('/src/assets/Courses/courses-hero.jpg')", backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
+        style={{ backgroundImage: `url(${coursesHero})`, backgroundAttachment: 'fixed', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-black/75" />
         <div data-aos="fade-up" className="relative z-10 text-center">
           <h1 className="text-white font-bold text-5xl md:text-4xl">Our <span className="text-yellow-400">Courses</span></h1>
-          <p data-aos="fade-up" data-aos-delay="100" className="text-white/80 mt-4 text-lg">Aptech Lays Particular Emphasis On Academic Quality.<br/>HERE'S HOW WE DO IT:</p>
+          <p data-aos="fade-up" data-aos-delay="100" className="text-white/80 mt-4 text-lg">Aptech Lays Particular Emphasis On Academic Quality.<br />HERE'S HOW WE DO IT:</p>
         </div>
       </div>
       <div className="py-16 px-6 bg-white">

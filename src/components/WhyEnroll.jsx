@@ -1,3 +1,4 @@
+import enrollVideo from '../assets/Home/enroll-video.mp4'
 export default function WhyEnroll() {
   return (
     <section className="bg-[#0d1117] py-20 px-6">
@@ -16,7 +17,7 @@ export default function WhyEnroll() {
           </a>
         </div>
         <div data-aos="fade-left" data-aos-delay="200" className="rounded-2xl overflow-hidden shadow-2xl">
-          <video src="/src/assets/Home/enroll-video.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover" />
+          <video src={enrollVideo} autoPlay loop muted playsInline className="w-full h-full object-cover" />
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import { NavLink, Link } from 'react-router-dom'
 import { useState } from 'react'
+import logo from '../assets/Navbar/image.png'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -13,7 +14,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <NavLink to="/" onClick={closeAll}>
-            <img src="/src/assets/Navbar/image.png" alt="Aptech Computer Education" className="h-14 w-auto" />
+            <img src={logo} alt="Aptech Computer Education" className="h-14 w-auto" />
           </NavLink>
 
           {/* Desktop Links */}
