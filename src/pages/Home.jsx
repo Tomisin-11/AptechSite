@@ -11,7 +11,6 @@ export default function Home() {
       <HeroSection />
       <FeatureCards />
       <WhyEnroll />
-      <FuturePrograms />
       <FeaturedCourses />
       <Testimonials />
     </div>

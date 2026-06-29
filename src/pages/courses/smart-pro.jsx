@@ -6,7 +6,7 @@ const programs = [
   {
     image: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600&q=80',
     title: 'Python Programming',
-    duration: '6 Months',
+    duration: '3 Months',
     schedule: 'Twice a week',
     format: 'Onsite / Online',
     details: 'Core Python, OOP, File Handling, Libraries (NumPy, Pandas), REST APIs, Mini Projects',
@@ -19,7 +19,7 @@ const programs = [
   {
     image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80',
     title: 'Java Programming',
-    duration: '6 Months',
+    duration: '3 Months',
     schedule: 'Twice a week',
     format: 'Onsite / Online',
     details: 'Java Fundamentals, OOP, Data Structures, JavaFX, JDBC, Spring Boot Basics',
@@ -32,7 +32,7 @@ const programs = [
   {
     image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80',
     title: 'Flutter & Mobile Dev',
-    duration: '6 Months',
+    duration: '4 Months',
     schedule: 'Twice a week',
     format: 'Onsite / Online',
     details: 'Dart Language, Flutter Widgets, State Management, REST APIs, Firebase, App Deployment',
@@ -58,7 +58,7 @@ const programs = [
   {
     image: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=600&q=80',
     title: 'Software Development',
-    duration: '2 Years',
+    duration: '6 Months',
     schedule: 'Twice a week',
     format: 'Onsite / Online',
     details: 'Full-Stack Web Development, Java, .NET, Python, Database Management, DevOps Basics, Agile & Scrum, eProjects',
@@ -84,7 +84,7 @@ const programs = [
   {
     image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&q=80',
     title: 'Digital Marketing',
-    duration: '6 Months',
+    duration: '3 Months',
     schedule: 'Twice a week',
     format: 'Onsite / Online',
     details: 'SEO, Google Ads, Meta Ads, Social Media Strategy, Email Marketing, Google Analytics, Content Creation, Campaign Management',
@@ -97,7 +97,7 @@ const programs = [
   {
     image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80',
     title: 'UI/UX & Graphic Design',
-    duration: '6 Months',
+    duration: '4 Months',
     schedule: 'Twice a week',
     format: 'Onsite / Online',
     details: 'Figma, Adobe XD, Wireframing, Prototyping, User Research, Design Systems, Adobe Photoshop, Illustrator, Brand Identity Design',

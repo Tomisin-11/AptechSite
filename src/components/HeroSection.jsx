@@ -4,7 +4,7 @@ import image2 from '../assets/Home/HeroSection/image2.png'
 import image3 from '../assets/Home/HeroSection/image3.png'
 
 const slides = [
-  { image: image1, heading: 'Are You Job Ready With', highlight: 'Digital Skill', end: 'For Industry?', sub: 'Skill up now and stay relevant in digital age.' },
+  { image: image1, heading: 'Are You Job Ready With', highlight: 'The Required Digital Skills', end: '', sub: 'Skill up now and stay relevant in digital age.' },
   { image: image2, heading: 'KickStart Your Career With An', highlight: 'ICT Degree!', end: '', sub: 'Why go to a Nigerian University when you can KickStart your Career with an ICT Degree from a University Overseas.' },
   { image: image3, heading: 'Enjoy Global', highlight: 'Recognition', end: '', sub: 'Get easy & affordable access to an International I.T. Degree!' },
 ]

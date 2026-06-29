@@ -13,7 +13,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="py-20 px-6 bg-white">
+      <div className="py-20 px-6 bg-white"> 
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right" className="rounded-2xl overflow-hidden shadow-md">
@@ -22,7 +22,17 @@ export default function About() {
             <div data-aos="fade-up">
               <h2 className="text-gray-900 font-bold text-4xl mb-6">About Us</h2>
               <p className="text-gray-600 text-base leading-relaxed">
-                Aptech Computer Education, Akowonjo, Lagos State came into being when HansFelz Technology Limited acquired the ICT Educational franchise from Aptech Computer Education, Mumbai India. It was based on the vision to pass a legacy of ICT training to the up and coming ICT servy Nigerians and also to develop the next generation of Nigerians who will continue from the present generation after more than 25 years experience garnered in the ICT space in the banking institutions, Insurance, Full Fledged IT companies, etc cutting across Private companies, corporate organizations, Public and multi-national companies. Our soul aim was to give something back to the society for the betterment of ICT in Nigeria.
+
+
+Aptech Computer Education, Akowonjo, Lagos, is a premier ICT training institution established through the acquisition of the Aptech Computer Education franchise from Mumbai, India by HansFelz Technology Limited. Our foundation is built on a passion for empowering individuals with globally relevant digital skills and creating a lasting legacy of technological excellence in Nigeria.
+<br /><br />
+With over 25 years of combined industry experience spanning banking, insurance, information technology, corporate organizations, government institutions, and multinational companies, our leadership team recognized the need to bridge the digital skills gap and prepare the next generation of Nigerian technology professionals for the future.
+<br /><br />
+At Aptech Akowonjo, we are committed to developing highly skilled, innovative, and industry-ready professionals who can thrive in today's rapidly evolving digital economy. Through internationally recognized curricula, hands-on learning, and career-focused training, we equip students with the practical knowledge and confidence required to succeed in the global technology landscape.
+<br /><br />
+Our mission goes beyond education; it is a commitment to giving back to society by contributing to the growth and advancement of ICT in Nigeria. We believe that technology is a powerful tool for transformation, and we are dedicated to nurturing the talent that will drive innovation, economic growth, and digital transformation across Africa and beyond.
+<br /><br />
+At Aptech Akowonjo, we don't just teach technology, we build careers, empower futures, and inspire the next generation of digital leaders.
               </p>
             </div>
           </div>
