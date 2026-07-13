@@ -17,7 +17,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right" className="rounded-2xl overflow-hidden shadow-md">
-              <video src={aboutVideo} autoPlay loop muted playsInline className="w-full h-120 object-cover" />
+              <video src={aboutVideo} autoPlay loop muted playsInline className="w-full h-200 object-cover" />
             </div>
             <div data-aos="fade-up">
               <h2 className="text-gray-900 font-bold text-4xl mb-6">About Us</h2>
