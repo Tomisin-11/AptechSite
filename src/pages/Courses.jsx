@@ -3,6 +3,7 @@ import coursesHero from '../assets/Courses/courses-hero.jpg'
 import course1 from '../assets/Courses/course1.jpg'
 import course2 from '../assets/Courses/course2.jpg'
 import course3 from '../assets/Courses/course3.jpg'
+import SEO from '../components/SEO'
 
 const courses = [
   { image: course1, title: 'Aptech ACNS Career Courses', path: '/courses/acns' },
@@ -13,6 +14,11 @@ const courses = [
 export default function Courses() {
   return (
     <div>
+      <SEO
+        title="Our Courses"
+        description="Explore Aptech Akowonjo's career and professional courses including ACNS, ADSE, and Smart Professional programs in Lagos, Nigeria."
+        path="/courses"
+      />
       <div className="relative w-full h-[60vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${coursesHero})`, backgroundAttachment: 'fixed', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-black/75" />

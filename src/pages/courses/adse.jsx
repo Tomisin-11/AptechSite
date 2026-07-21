@@ -1,5 +1,6 @@
 import coursesHero from '../../assets/Courses/courses-hero.jpg'
 import adseImg from '../../assets/Courses/adse.jpg'
+import SEO from '../../components/SEO'
 const semesters = [
   {
     title: 'SEMESTER ONE',
@@ -149,6 +150,11 @@ const semesters = [
 export default function CoursesADSE() {
   return (
     <div>
+      <SEO
+        title="Advanced Diploma in Software Engineering (ADSE)"
+        description="Master software engineering with Aptech's ADSE program — programming, databases, and full-stack development training in Lagos, Nigeria."
+        path="/courses/adse"
+      />
 
       {/* Hero Banner */}
       <div

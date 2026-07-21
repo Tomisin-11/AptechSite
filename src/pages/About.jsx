@@ -1,9 +1,15 @@
 import aboutHero from '../assets/About/about-hero.jpg'
 import collaborationsImg from '../assets/About/collaborations.png'
 import aboutVideo from '../assets/About/about-video.mp4'
+import SEO from '../components/SEO'
 export default function About() {
   return (
     <div>
+      <SEO
+        title="About Us"
+        description="Learn about Aptech Akowonjo Computer Education — our mission, collaborations, and commitment to quality IT training in Lagos, Nigeria."
+        path="/about"
+      />
       <div className="relative w-full h-[60vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${aboutHero})`, backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
         <div className="absolute inset-0 bg-black/65" />

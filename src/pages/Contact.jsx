@@ -1,5 +1,6 @@
 import coursesHero from '../assets/Courses/courses-hero.jpg'
 import { useState } from 'react'
+import SEO from '../components/SEO'
 
 const courseOptions = [
   // Career Courses
@@ -60,6 +61,11 @@ export default function Contact() {
 
   return (
     <div>
+      <SEO
+        title="Contact Us"
+        description="Get in touch with Aptech Akowonjo. Enroll in a course or ask us a question — we're based in Akowonjo, Lagos, Nigeria."
+        path="/contact"
+      />
       <div className="relative w-full h-[60vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${coursesHero})`, backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
         <div className="absolute inset-0 bg-black/75" />

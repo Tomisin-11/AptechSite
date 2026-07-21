@@ -2,6 +2,7 @@ import coursesHero from '../../assets/Courses/courses-hero.jpg'
 import acnsImg from '../../assets/Courses/acns.jpg'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import SEO from '../../components/SEO'
 
 const semesters = [
   { title: 'SEMESTER ONE', objective: 'Hardware Specialist', items: ['Digital Electronics', 'Fundamentals of Computer Hardware and Networking', 'PC Configuration and Troubleshooting', 'and more!!!'] },
@@ -29,6 +30,11 @@ export default function CoursesACNS() {
 
   return (
     <div>
+      <SEO
+        title="Aptech Certified Network Specialist (ACNS)"
+        description="Become a hardware and network specialist with Aptech's ACNS career course — hardware, networking, and database administration training in Lagos."
+        path="/courses/acns"
+      />
       <div className="relative w-full h-[60vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${coursesHero})`, backgroundAttachment:'fixed', backgroundSize:'cover', backgroundPosition:'center' }}>
         <div className="absolute inset-0 bg-black/75" />

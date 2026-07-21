@@ -1,6 +1,7 @@
 import coursesHero from '../../assets/Courses/courses-hero.jpg'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import SEO from '../../components/SEO'
 
 const programs = [
   {
@@ -205,6 +206,11 @@ export default function CoursesSmart() {
 
   return (
     <div>
+      <SEO
+        title="Aptech Smart Professional Courses"
+        description="Short, career-focused Smart Professional courses from Aptech Akowonjo — Python, Java, Flutter, AI/ML, cybersecurity, and more in Lagos, Nigeria."
+        path="/courses/smart-pro"
+      />
       {/* Hero */}
       <div
         className="relative w-full h-[60vh] flex items-center justify-center"
